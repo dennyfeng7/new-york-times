@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-brand {
+    font-size: 60px;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Great Vibes', cursive;
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+}
+
+header {
+    border-bottom: 3px solid #333;
+}
+
+.denny {
+    text-align: center;
+}
+
+.story-img {
+    width: 100%;
+}
+
+.story-title {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 30px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.story-text {
+    line-height: 1.2;
+    font-size: 18px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    border-bottom: 3px solid #333;
+    border-left: 1px solid #333;
+}
+
+.story {
+    border-right: solid 1px #333;
+    padding: 15px;
+}
+
+.quarter {
+    width: 25%;
+}
+
+.half {
+    width: 50%;
+}
+
+.three-quarter {
+    width: 75%;
+}
+
+.nav-list {
+    display:flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-item {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    font-size: 20px;
+    color: #555;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 1px #333;
+}
+
+
+.nav-item a {
+    text-decoration: none;
+    color: #555;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+}
+
+.nav-item:nth-child(1) { background-color:#ffeaa7; }
+.nav-item:nth-child(2) { background-color:#81ecec; }
+.nav-item:nth-child(3) { background-color:#55efc4; }
+.nav-item:nth-child(4) { background-color:#74b9ff; }
+.nav-item:nth-child(5) { background-color:#a29bfe; }
